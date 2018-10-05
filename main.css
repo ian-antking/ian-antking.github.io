@@ -29,6 +29,8 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: var(--hero-text-color);
+
+    overflow: hidden;
 }
 
 header h1{
