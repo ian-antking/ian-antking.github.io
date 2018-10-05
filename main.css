@@ -11,6 +11,9 @@ body{
     margin: 0;
     font-family: sans-serif;
     background-color: var(--background-color);
+    max-width: 100%;
+    overflow-x: hidden;
+
 }
 
 header{
@@ -30,7 +33,6 @@ header{
     background-attachment: fixed;
     color: var(--hero-text-color);
 
-    overflow: hidden;
 }
 
 header h1{
