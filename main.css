@@ -1,0 +1,62 @@
+:root{
+    --hero-text-color: #F7F7FF;
+    --gradient-color: rgba(0, 0, 0, 0.5);
+    --button-color: rgba(196, 107, 174, 0.8);
+    --background-color: #C6C5B9;
+    --highlight-color: #279AF1;
+    --text-color: #131112;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: var(--background-color);
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background-image:linear-gradient(var(--gradient-color), var(--gradient-color)), url(' http://placebeard.it/640/480');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--hero-text-color);
+}
+
+header h1{
+    font-size: 5em;
+
+    margin-top: 0;
+    margin-bottom: 0.5em;
+
+    color: var(--hero-text-color);
+}
+
+.hero-inner .btn{
+    display: block;
+    width: 200px;
+
+    padding: 1em;
+    margin-top: 50px;
+
+    border: 3px solid var(--hero-text-color);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: var(--hero-text-color);
+    text-decoration: none;
+    font-size: 1.5em;
+
+    border-radius: 20px;
+
+    background-color: var(--button-color);
+}
