@@ -26,7 +26,7 @@ header{
 
     text-align: center;
 
-    background-image:linear-gradient(var(--gradient-color), var(--gradient-color)), url(' http://placebeard.it/640/480');
+    background-image:linear-gradient(var(--gradient-color), var(--gradient-color)), url('./assets/hero-pic.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
