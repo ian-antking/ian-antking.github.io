@@ -100,13 +100,16 @@ header h1{
     size: 1em;
 }
 
-.logo{
-    max-width: 10vw;
-    margin: 1vw;
-}
-
 .image-box{
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo{
+    width: 10vw;
+    margin: 1vw;
 }
 
 #about{
@@ -142,7 +145,7 @@ header h1{
     }
 
     .logo{
-        max-width: 20vw;
-        margin: 1vw;
+        width: 10%;
+        margin: 1%;
     }
 }
