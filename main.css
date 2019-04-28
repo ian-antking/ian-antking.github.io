@@ -81,5 +81,19 @@ header h1{
 
 .logo{
     max-width: 10vw;
-    height: auto;
+    margin: 1vw;
+}
+
+#about{
+    background-color: var(--highlight-color);
+}
+
+#projects{
+    background-color: var(--button-color);
+}
+
+#image-box{
+    background-color: white;
+    width: 50vw;
+    height: 100vh;
 }
