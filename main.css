@@ -108,8 +108,8 @@ header h1{
 }
 
 .logo{
-    width: 10vw;
-    margin: 1vw;
+    height: 10vh;
+    margin: 3vw;
 }
 
 #about{
@@ -145,7 +145,8 @@ header h1{
     }
 
     .logo{
-        width: 10%;
+        height: 10vh;
+        width: auto;
         margin: 1%;
     }
 }
