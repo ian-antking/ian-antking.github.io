@@ -17,6 +17,7 @@ body{
     background-color: var(--background-color);
     max-width: 100%;
     overflow-x: hidden;
+    color: var(--hero-text-color);
 }
 
 header{
@@ -39,6 +40,10 @@ header{
 
 footer{
     text-align: right;
+}
+
+p{
+    width: 90%;
 }
 
 header h1{
@@ -83,10 +88,16 @@ header h1{
 .half-section{
     width: 50%;
     height: 100%;
+    max-width: 50vw;
+    max-height: 100vh;
 }
 
 .text-box{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    align-content: center;
+    size: 1em;
 }
 
 .logo{
@@ -118,6 +129,12 @@ header h1{
     .half-section{
         width: 100%;
         height: 50%;
+        max-width: 100vw;
+        max-height: 50vh;
+    }
+
+    .text-box{
+        overflow: scroll;
     }
 
     .logo{
