@@ -80,14 +80,22 @@ header h1{
     background-color: var(--highlight-color);
 }
 
+.half-section{
+    width: 50%;
+    height: 100%;
+}
+
 .text-box{
-    width: 50vw;
-    height: 100vh;
+
 }
 
 .logo{
     max-width: 10vw;
     margin: 1vw;
+}
+
+.image-box{
+    background-color: white;
 }
 
 #about{
@@ -102,8 +110,13 @@ header h1{
     background-color: var(--highlight-color);
 }
 
-#image-box{
-    background-color: white;
-    width: 50vw;
-    height: 100vh;
+@media only screen and (max-width: 768px) {
+    .section{
+        flex-direction: column;
+    }
+
+    .half-section{
+        width: 100%;
+        height: 50%;
+    }
 }
