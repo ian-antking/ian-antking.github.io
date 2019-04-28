@@ -122,6 +122,10 @@ header h1{
 }
 
 @media only screen and (max-width: 768px) {
+    header{
+        background-size: auto 100vh;
+    }
+
     .section{
         flex-direction: column;
     }
