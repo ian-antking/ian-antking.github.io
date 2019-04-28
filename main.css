@@ -72,11 +72,17 @@ header h1{
 }
 
 .section{
+    display: flex;
     height: 100vh;
 }
 
 .btn:hover{
     background-color: var(--highlight-color);
+}
+
+.text-box{
+    width: 50vw;
+    height: 100vh;
 }
 
 .logo{
@@ -90,6 +96,10 @@ header h1{
 
 #projects{
     background-color: var(--button-color);
+}
+
+#contact{
+    background-color: var(--highlight-color);
 }
 
 #image-box{
