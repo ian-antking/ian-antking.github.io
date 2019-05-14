@@ -33,7 +33,7 @@ header{
 
     text-align: center;
 
-    background-image:linear-gradient(var(--gradient-color), var(--gradient-color)), url('./assets/hero-pic.jpg');
+    background-image:linear-gradient(var(--gradient-color), var(--gradient-color)), url('./assets/header-image.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
