@@ -68,8 +68,8 @@ a{
 }
 
 .hero-inner .btn{
-    display: block;
     width: 200px;
+    height: 30px;
 
     padding: 1em;
     margin-top: 50px;
@@ -86,6 +86,12 @@ a{
     border-radius: 20px;
 
     background-color: var(--button-color);
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .link-box{
@@ -172,7 +178,10 @@ a{
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (orientation: portrait) {
     header{
         background-size: auto 100vh;
         background-position: center;
@@ -204,6 +213,11 @@ a{
         justify-content: center;
     }
 
+    .link-box a{
+        font-size: 1em;
+
+    }
+
     .project-card{
         background-size: auto 100vh;
         background-position: center;
@@ -218,5 +232,42 @@ a{
 
     .about-list{
         height: 35vh;
+    }
+}
+
+@media only screen
+    and (orientation: landscape) {
+
+    header{
+        background-attachment: scroll;
+    }
+
+    .hero-inner .btn{
+        width: 100px;
+        margin: 10px;
+    }
+
+    .project-card{
+        background-attachment: scroll;
+    }
+    
+    .link-box{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .link-box a{
+        font-size: 1em;
+        margin: 1%;
+    }
+
+    .button-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .text-box{
+        overflow: scroll;
     }
 }
