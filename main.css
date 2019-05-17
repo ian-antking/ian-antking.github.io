@@ -179,6 +179,10 @@ a{
     justify-content: space-between;
 }
 
+#avatar-svg{
+    margin: 5%;
+}
+
 @media only screen
     and (min-device-width: 320px)
     and (max-device-width: 480px)
@@ -205,7 +209,7 @@ a{
     }
 
     .text-box{
-        overflow: scroll;
+        overflow: auto;
         height: 50vh;
     }
 
@@ -222,7 +226,7 @@ a{
     .project-card{
         background-size: auto 100vh;
         background-position: center;
-        background-attachment: scroll;
+        background-attachment: auto;
     }
 
     .logo{
@@ -233,6 +237,10 @@ a{
 
     .about-list{
         height: 35vh;
+    }
+
+    #avatar-svg{
+        display: none;
     }
 }
 
@@ -268,6 +276,7 @@ a{
     }
 
     .text-box{
-        overflow: scroll;
+        overflow: auto;
     }
+
 }
