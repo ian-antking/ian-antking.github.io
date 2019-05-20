@@ -226,7 +226,7 @@ a{
     .project-card{
         background-size: auto 100vh;
         background-position: center;
-        background-attachment: auto;
+        background-attachment: scroll;
     }
 
     .logo{
