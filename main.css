@@ -245,38 +245,39 @@ a{
 }
 
 @media only screen
-    and (orientation: landscape) {
+    and (orientation: landscape)
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px) {
+        header{
+            background-attachment: scroll;
+        }
 
-    header{
-        background-attachment: scroll;
-    }
+        .hero-inner .btn{
+            width: 100px;
+            margin: 10px;
+        }
 
-    .hero-inner .btn{
-        width: 100px;
-        margin: 10px;
-    }
+        .project-card{
+            background-attachment: scroll;
+        }
+        
+        .link-box{
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
 
-    .project-card{
-        background-attachment: scroll;
-    }
-    
-    .link-box{
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+        .link-box a{
+            font-size: 1em;
+        }
 
-    .link-box a{
-        font-size: 1em;
-    }
+        .button-box{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
 
-    .button-box{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .text-box{
-        overflow: auto;
-    }
+        .text-box{
+            overflow: auto;
+        }
 
 }
