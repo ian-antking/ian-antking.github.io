@@ -280,4 +280,8 @@ a{
             overflow: auto;
         }
 
+        #avatar-svg{
+            display: none;
+        }
+
 }
