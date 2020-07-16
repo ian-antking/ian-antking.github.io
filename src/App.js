@@ -10,7 +10,7 @@ const AppContainer = styled.div`
 `;
 
 function App() {
-  const [theme] = useState('default');
+  const [theme] = useState('forest');
 
   return (
     <ThemeProvider theme={themes[theme]}>
