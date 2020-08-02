@@ -4,6 +4,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/global';
 import themes from './themes';
 import Nav from './components/Nav';
+import Hero from './components/Hero';
 
 const AppContainer = styled.div`
   text-align: center;
@@ -22,7 +23,7 @@ function App() {
           <Route path="/about" component={() => <h1>About</h1>} />
           <Route path="/projects" component={() => <h1>Projects</h1>} />
           <Route path="/contact" component={() => <h1>Contact</h1>} />
-          <Route path="/" exact component={() => <h1>Home</h1>} />
+          <Route path="/" exact component={(props) => <Hero {...props} />} />
         </Switch>
       </AppContainer>
     </ThemeProvider>
