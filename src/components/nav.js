@@ -14,7 +14,6 @@ const HeaderBar = styled.header`
 
 const Logo = styled.h1`
   margin: auto;
-  font-family: 'Lobster', cursive;
   color: ${(props) => props.theme.light};
 
   &:hover {
@@ -39,7 +38,6 @@ const Links = styled.div`
 const NavLink = styled(Link)`
   margin: auto;
   text-decoration: none;
-  font-family: Lobster;
   font-size: 2em;
   color: ${(props) => props.theme.light};
 

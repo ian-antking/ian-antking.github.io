@@ -8,7 +8,7 @@ import Hero from './components/Hero';
 
 const AppContainer = styled.div`
   text-align: center;
-  height: 1vh;
+  height: 100vh;
 `;
 
 function App() {

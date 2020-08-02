@@ -1,30 +1,24 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import LazyHero from 'react-lazy-hero';
-import styled, { withTheme } from 'styled-components';
+import styled from 'styled-components';
 import image from '../assets/header-image.jpg';
 
-const HeroImage = styled(LazyHero)`
-  width: 100vw;
-  height: 91.5vh;
-  overflow: hidden;
+const HeroImage = styled.div`
+  background-image: linear-gradient(
+      ${(props) => props.theme.shadow}80,
+      ${(props) => props.theme.shadow}80
+    ),
+    url(${image});
+  height: 60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 `;
 
-const Hero = ({ theme }) => (
-  <HeroImage
-    color={theme.shadow}
-    imageSrc={image}
-    opacity={0.5}
-    parallaxOffset={100}
-  >
-    <h1>Ian King</h1>
-  </HeroImage>
+const Hero = () => (
+  <>
+    <HeroImage />
+  </>
 );
 
-Hero.propTypes = {
-  theme: PropTypes.shape({
-    shadow: PropTypes.string,
-  }).isRequired,
-}
-
-export default withTheme(Hero);
+export default Hero;
