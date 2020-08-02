@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/global';
 import themes from './themes';
-import Nav from './components/nav';
+import Nav from './components/Nav';
 
 const AppContainer = styled.div`
   text-align: center;
