@@ -18,7 +18,7 @@ const HeroImage = styled.div`
   justify-content: center;
   align-items: flex-end;
 
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 ${(props) => props.angle}%);
 `;
 
 const Title = styled.h1`
@@ -37,11 +37,11 @@ const TitleBox = styled.div`
   margin: 10vw;
 `;
 
-const Hero = ({ title, subtitle, image }) => {
+const Hero = ({ title, subtitle, image, angle }) => {
   const lines = subtitle.split('\\n');
   return (
     <>
-      <HeroImage image={image}>
+      <HeroImage image={image} angle={angle}>
         <TitleBox>
           <Title>{title}</Title>
           {lines.map((line) => {
@@ -55,12 +55,14 @@ const Hero = ({ title, subtitle, image }) => {
 
 Hero.defaultProps = {
   image: '',
+  angle: Math.floor(Math.random() * 100),
 };
 
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   image: PropTypes.string,
+  angle: PropTypes.number,
 };
 
 export default Hero;

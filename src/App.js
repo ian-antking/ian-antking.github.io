@@ -30,6 +30,7 @@ function App() {
                 title="Ian King"
                 subtitle="Junior Software Engineer, \n Coding Tutor and Maker"
                 image={image}
+                angle={70}
               />
             )}
           />
