@@ -8,7 +8,7 @@ const HeroImage = styled.div`
       ${(props) => `${props.theme.shadow}${props.image ? '80' : 'FF'}`}
     ),
     url(${(props) => props.image});
-  height: 70vh;
+  height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
