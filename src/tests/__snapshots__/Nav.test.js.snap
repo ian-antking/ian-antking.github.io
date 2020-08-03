@@ -2,40 +2,27 @@
 
 exports[`Nav renders the navbar 1`] = `
 <DocumentFragment>
-  <header
+  <nav
     class="sc-AxjAm fZKPBO"
   >
-    <div
-      class="sc-AxiKw euhydl"
+    <a
+      class="sc-AxirZ dFhmal"
+      href="/about"
     >
-      <h1
-        class="sc-AxirZ kSbHJV"
-      >
-        ᶘ ᵒᴥᵒᶅ Code Bear
-      </h1>
-    </div>
-    <div
-      class="sc-AxhCb kamvmT"
+      About
+    </a>
+    <a
+      class="sc-AxirZ dFhmal"
+      href="/projects"
     >
-      <a
-        class="sc-AxhUy czQYyC"
-        href="/about"
-      >
-        About
-      </a>
-      <a
-        class="sc-AxhUy czQYyC"
-        href="/projects"
-      >
-        Projects
-      </a>
-      <a
-        class="sc-AxhUy czQYyC"
-        href="/contact"
-      >
-        Contact
-      </a>
-    </div>
-  </header>
+      Projects
+    </a>
+    <a
+      class="sc-AxirZ dFhmal"
+      href="/contact"
+    >
+      Contact
+    </a>
+  </nav>
 </DocumentFragment>
 `;
