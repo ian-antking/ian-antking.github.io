@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/global';
 import themes from './themes';
-import Nav from './components/Nav';
 import Hero from './components/Hero';
 
 const AppContainer = styled.div`
@@ -18,7 +17,6 @@ function App() {
     <ThemeProvider theme={themes[theme]}>
       <AppContainer className="App">
         <GlobalStyle />
-        <Nav />
         <Switch>
           <Route path="/about" component={() => <h1>About</h1>} />
           <Route path="/projects" component={() => <h1>Projects</h1>} />
