@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
-import image from '../assets/header-image.jpg';
+import PropTypes from 'prop-types';
 
 const HeroImage = styled.div`
   background-image: linear-gradient(
-      ${(props) => props.theme.shadow}80,
-      ${(props) => props.theme.shadow}80
+      ${(props) => `${props.theme.shadow}${props.image ? '80' : 'FF'}`},
+      ${(props) => `${props.theme.shadow}${props.image ? '80' : 'FF'}`}
     ),
-    url(${image});
+    url(${(props) => props.image});
   height: 70vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,19 +37,30 @@ const TitleBox = styled.div`
   margin: 10vw;
 `;
 
-const Hero = () => (
-  <>
-    <HeroImage>
-      <TitleBox>
-        <Title>Ian King</Title>
-        <SubTitle>
-          Junior Software Engineer,
-          <br />
-          Coding Tutor and Maker
-        </SubTitle>
-      </TitleBox>
-    </HeroImage>
-  </>
-);
+const Hero = ({ title, subtitle, image }) => {
+  const lines = subtitle.split('\\n');
+  return (
+    <>
+      <HeroImage image={image}>
+        <TitleBox>
+          <Title>{title}</Title>
+          {lines.map((line) => {
+            return <SubTitle key={line}>{line}</SubTitle>;
+          })}
+        </TitleBox>
+      </HeroImage>
+    </>
+  );
+};
+
+Hero.defaultProps = {
+  image: '',
+};
+
+Hero.propTypes = {
+  title: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
+  image: PropTypes.string,
+};
 
 export default Hero;
