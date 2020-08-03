@@ -3,8 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/global';
 import themes from './themes';
-import Hero from './components/Hero';
-import image from './assets/header-image.jpg';
+import Home from './pages/Home';
 
 const AppContainer = styled.div`
   text-align: center;
@@ -22,18 +21,7 @@ function App() {
           <Route path="/about" component={() => <h1>About</h1>} />
           <Route path="/projects" component={() => <h1>Projects</h1>} />
           <Route path="/contact" component={() => <h1>Contact</h1>} />
-          <Route
-            path="/"
-            exact
-            component={() => (
-              <Hero
-                title="Ian King"
-                subtitle="Junior Software Engineer, \n Coding Tutor and Maker"
-                image={image}
-                angle={70}
-              />
-            )}
-          />
+          <Route path="/" exact component={Home} />
         </Switch>
       </AppContainer>
     </ThemeProvider>
