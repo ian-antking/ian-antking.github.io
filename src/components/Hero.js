@@ -24,7 +24,7 @@ const HeroImage = styled.div`
 const Title = styled.h1`
   margin: 0;
   color: ${(props) => props.theme.light};
-  font-size: 5em;
+  font-size: 4em;
 `;
 
 const SubTitle = styled.h2`
@@ -55,7 +55,7 @@ const Hero = ({ title, subtitle, image, angle }) => {
 
 Hero.defaultProps = {
   image: '',
-  angle: Math.floor(Math.random() * 100),
+  angle: 60 + Math.floor(Math.random() * 20),
 };
 
 Hero.propTypes = {
