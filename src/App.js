@@ -4,6 +4,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/global';
 import themes from './themes';
 import Home from './pages/Home';
+import Nav from './components/Nav';
 
 const AppContainer = styled.div`
   text-align: center;
@@ -17,6 +18,7 @@ function App() {
     <ThemeProvider theme={themes[theme]}>
       <AppContainer className="App">
         <GlobalStyle />
+        <Nav />
         <Switch>
           <Route path="/projects" component={() => <h1>Projects</h1>} />
           <Route path="/" exact component={Home} />
