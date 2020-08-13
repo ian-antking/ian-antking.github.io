@@ -8,7 +8,7 @@ const Home = () => (
   <>
     <Hero
       title="Ian King"
-      subtitle="Junior Software Engineer, \n Coding Tutor and Maker"
+      subtitle="Full Stack Engineer"
       image={image}
       angle={70}
     />

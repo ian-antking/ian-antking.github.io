@@ -7,11 +7,12 @@ import Nav from '../components/Nav';
 describe('Nav', () => {
   it('renders the navbar', () => {
     const history = createMemoryHistory();
-    const { asFragment } = render(
+    const { getByTestId } = render(
       <Router history={history}>
         <Nav />
       </Router>
     );
-    expect(asFragment(<Nav />)).toMatchSnapshot();
+    const testId = getByTestId('nav-bar');
+    expect(testId).toBeInTheDocument();
   });
 });

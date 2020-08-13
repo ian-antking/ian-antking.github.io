@@ -23,7 +23,7 @@ const NavLink = styled(Link)`
 `;
 
 const Nav = () => (
-  <HeaderBar>
+  <HeaderBar data-testid="nav-bar">
     <NavLink to="/projects">Projects</NavLink>
   </HeaderBar>
 );
