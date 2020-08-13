@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icons renders the correct snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxirZ qPyFg"
+    data-testid="icons-box"
+  >
+    <div
+      class="sc-AxjAm bFEEkt"
+      data-testid="rendered-icon"
+    >
+      <div>
+        mock-icon1
+      </div>
+    </div>
+    <div
+      class="sc-AxjAm bFEEkt"
+      data-testid="rendered-icon"
+    >
+      <div>
+        mock-icon2
+      </div>
+    </div>
+    <div
+      class="sc-AxjAm bFEEkt"
+      data-testid="rendered-icon"
+    >
+      <div>
+        mock-icon3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
