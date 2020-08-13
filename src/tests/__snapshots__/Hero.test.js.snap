@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero renders the correct snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm dlORAn"
+  >
+    <div
+      class="sc-AxhCb kifDuN"
+    >
+      <h1
+        class="sc-AxirZ bjMeBQ"
+      >
+        test-title
+      </h1>
+      <h2
+        class="sc-AxiKw kojdAC"
+      >
+        test-subtitle
+      </h2>
+    </div>
+  </div>
+</DocumentFragment>
+`;

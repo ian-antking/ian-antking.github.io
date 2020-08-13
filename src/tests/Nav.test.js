@@ -13,7 +13,7 @@ describe('Nav', () => {
       </Router>
     );
 
-    expect(asFragment).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
   });
 
   it('renders the navbar and links', () => {

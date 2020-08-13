@@ -1,3 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav correctly renders the snapshot 1`] = `[Function]`;
+exports[`Nav correctly renders the snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-AxjAm fLNzde"
+    data-testid="nav-bar"
+  >
+    <div
+      class="sc-AxiKw gQKflZ"
+    >
+      <h1
+        class="sc-AxirZ gDQoYW"
+        data-testid="home-link"
+      >
+        [Ian King]
+      </h1>
+    </div>
+    <div
+      class="sc-AxhCb dBIewh"
+    >
+      <a
+        class="sc-AxhUy ikNMSw"
+        data-testid="about-link"
+        href="/about"
+      >
+        about
+      </a>
+      <a
+        class="sc-AxhUy ikNMSw"
+        data-testid="projects-link"
+        href="/projects"
+      >
+        projects
+      </a>
+      <a
+        class="sc-AxhUy ikNMSw"
+        data-testid="contact-link"
+        href="/contact"
+      >
+        contact
+      </a>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
