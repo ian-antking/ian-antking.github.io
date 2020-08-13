@@ -24,28 +24,124 @@ import { ReactComponent as VimIcon } from './vim-original.svg';
 import { ReactComponent as WebpackIcon } from './webpack-original-wordmark.svg';
 
 export default [
-  AwsIcon,
-  ClojureIcon,
-  CssIcon,
-  DockerIcon,
-  ExpressIcon,
-  GitIcon,
-  GitHubIcon,
-  GradleIcon,
-  HerokuIcon,
-  HtmlIcon,
-  JavaIcon,
-  JavaScriptIcon,
-  MochaIcon,
-  MongoDBIcon,
-  MySQLIcon,
-  NodeJSIcon,
-  NPMIcon,
-  PythonIcon,
-  ReactIcon,
-  SassIcon,
-  SequelizeIcon,
-  SlackIcon,
-  VimIcon,
-  WebpackIcon,
+  {
+    name: 'aws-icon',
+    Icon: AwsIcon,
+    type: 'platform',
+  },
+  {
+    name: 'clojure-icon',
+    Icon: ClojureIcon,
+    type: 'language',
+  },
+  {
+    name: 'css-icon',
+    Icon: CssIcon,
+    type: 'language',
+  },
+  {
+    name: 'docker-icon',
+    Icon: DockerIcon,
+    type: 'tool',
+  },
+  {
+    name: 'express-icon',
+    Icon: ExpressIcon,
+    type: 'framework',
+  },
+  {
+    name: 'git-icon',
+    Icon: GitIcon,
+    type: 'tool',
+  },
+  {
+    name: 'github-icon',
+    Icon: GitHubIcon,
+    type: 'tool',
+  },
+  {
+    name: 'gradle-icon',
+    Icon: GradleIcon,
+    type: 'tool',
+  },
+  {
+    name: 'heroku-icon',
+    Icon: HerokuIcon,
+    type: 'platform',
+  },
+  {
+    name: 'html-icon',
+    Icon: HtmlIcon,
+    type: 'language',
+  },
+  {
+    name: 'java-icon',
+    Icon: JavaIcon,
+    type: 'language',
+  },
+  {
+    name: 'javascript-icon',
+    Icon: JavaScriptIcon,
+    type: 'language',
+  },
+  {
+    name: 'mocha-icon',
+    Icon: MochaIcon,
+    type: 'framework',
+  },
+  {
+    name: 'mongodb-icon',
+    Icon: MongoDBIcon,
+    type: 'database',
+  },
+  {
+    name: 'mysql-icon',
+    Icon: MySQLIcon,
+    type: 'database',
+  },
+  {
+    name: 'node-icon',
+    Icon: NodeJSIcon,
+    type: 'tool',
+  },
+  {
+    name: 'npm-icon',
+    Icon: NPMIcon,
+    type: 'tool',
+  },
+  {
+    name: 'python-icon',
+    Icon: PythonIcon,
+    type: 'language',
+  },
+  {
+    name: 'react-icon',
+    Icon: ReactIcon,
+    type: 'framework',
+  },
+  {
+    name: 'sass-icon',
+    Icon: SassIcon,
+    type: 'language',
+  },
+  {
+    name: 'sequelize-icon',
+    Icon: SequelizeIcon,
+    type: 'framework',
+  },
+  {
+    name: 'slack-icon',
+    Icon: SlackIcon,
+    type: 'tool',
+  },
+  {
+    name: 'vim-icon',
+    Icon: VimIcon,
+    type: 'tool',
+  },
+  {
+    name: 'webpack-icon',
+    Icon: WebpackIcon,
+    type: 'tool',
+  },
 ];
