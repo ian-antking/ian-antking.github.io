@@ -19,4 +19,15 @@ describe('Hero', () => {
     expect(getByText('test-title')).toBeInTheDocument();
     expect(getByText('test-subtitle')).toBeInTheDocument();
   });
+
+  it('renders the hero image with an angled lower border', () => {
+    const { getByTestId } = render(
+      <Hero title="test-title" subtitle="test-subtitle" angle={70} />
+    );
+
+    const heroImage = getByTestId('hero-image');
+    expect(heroImage).toHaveStyle(
+      'clip-path: polygon(0 0,100% 0,100% 100%,0 70%)'
+    );
+  });
 });

@@ -41,7 +41,7 @@ const Hero = ({ title, subtitle, image, angle }) => {
   const lines = subtitle.split('\\n');
   return (
     <>
-      <HeroImage image={image} angle={angle}>
+      <HeroImage data-testid="hero-image" image={image} angle={angle}>
         <TitleBox>
           <Title>{title}</Title>
           {lines.map((line) => {
