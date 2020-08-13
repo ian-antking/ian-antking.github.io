@@ -5,6 +5,17 @@ import { render, fireEvent } from '@testing-library/react';
 import Nav from '../components/Nav';
 
 describe('Nav', () => {
+  it('correctly renders the snapshot', () => {
+    const history = createMemoryHistory();
+    const { asFragment } = render(
+      <Router history={history}>
+        <Nav />
+      </Router>
+    );
+
+    expect(asFragment).toMatchSnapshot();
+  });
+
   it('renders the navbar and links', () => {
     const history = createMemoryHistory();
     const { getByTestId } = render(
