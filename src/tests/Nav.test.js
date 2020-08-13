@@ -36,6 +36,7 @@ describe('Nav', () => {
 });
 
 describe('Links', () => {
+  const linkNames = ['about', 'projects', 'contact'];
   it('logo pushes history when clicked', () => {
     const history = createMemoryHistory();
     const { getByTestId } = render(
@@ -58,8 +59,6 @@ describe('Links', () => {
       </Router>
     );
 
-    const linkNames = ['about', 'projects', 'contact'];
-
     const NavLinks = linkNames.map((linkName) => ({
       name: linkName,
       node: getByTestId(`${linkName}-link`),
@@ -68,6 +67,21 @@ describe('Links', () => {
     NavLinks.forEach((NavLink) => {
       fireEvent.click(NavLink.node);
       expect(history.location.pathname).toBe(`/${NavLink.name}`);
+    });
+  });
+
+  it('NavLinks are rendered with first letter capitalized', () => {
+    const history = createMemoryHistory();
+    const { getByText } = render(
+      <Router history={history}>
+        <Nav />
+      </Router>
+    );
+
+    const renderedLinkNames = ['About', 'Projects', 'Contact'];
+
+    renderedLinkNames.forEach((linkName) => {
+      expect(getByText(linkName)).toBeInTheDocument();
     });
   });
 });

@@ -24,21 +24,21 @@ exports[`Nav correctly renders the snapshot 1`] = `
         data-testid="about-link"
         href="/about"
       >
-        about
+        About
       </a>
       <a
         class="sc-AxhUy ikNMSw"
         data-testid="projects-link"
         href="/projects"
       >
-        projects
+        Projects
       </a>
       <a
         class="sc-AxhUy ikNMSw"
         data-testid="contact-link"
         href="/contact"
       >
-        contact
+        Contact
       </a>
     </div>
   </nav>

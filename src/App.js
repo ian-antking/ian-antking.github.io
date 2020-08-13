@@ -20,7 +20,9 @@ function App() {
         <GlobalStyle />
         <Nav />
         <Switch>
+          <Route path="/about" component={() => <h1>About</h1>} />
           <Route path="/projects" component={() => <h1>Projects</h1>} />
+          <Route path="/contact" component={() => <h1>Contact</h1>} />
           <Route path="/" exact component={Home} />
         </Switch>
       </AppContainer>

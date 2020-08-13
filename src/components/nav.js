@@ -57,7 +57,7 @@ const renderLinks = (linkNames) =>
       data-testid={`${link}-link`}
       to={`/${link}`}
     >
-      {link}
+      {link.charAt(0).toUpperCase() + link.slice(1)}
     </NavLink>
   ));
 
