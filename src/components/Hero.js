@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import devices from '../styles/devices'
 
 const HeroImage = styled.div`
   background-image: linear-gradient(
@@ -8,15 +9,20 @@ const HeroImage = styled.div`
       ${(props) => `${props.theme.shadow}${props.image ? '80' : 'FF'}`}
     ),
     url(${(props) => props.image});
-  height: 60vh;
+  height: 40vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media ${devices.mobileL} {
+    align-items: flex-end;
+    justify-content: center;
+  }
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 ${(props) => props.angle}%);
 `;
@@ -34,7 +40,9 @@ const SubTitle = styled.h2`
 `;
 
 const TitleBox = styled.div`
-  margin: 10vw;
+  @media ${devices.mobileL} {
+    margin: 10vw;
+  }
 `;
 
 const Hero = ({ title, subtitle, image, angle }) => {
