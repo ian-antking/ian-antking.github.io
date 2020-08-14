@@ -1,11 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import devices from '../styles/devices';
 
 const IconBox = styled.div`
-  width: 100px;
-  height: 100px;
-  margin: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+
+  @media ${devices.mobileL} {
+    width: 100px;
+    height: 100px;
+  }
 `;
 
 const IconsBox = styled.div`
