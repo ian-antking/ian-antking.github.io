@@ -22,7 +22,7 @@ const Logo = styled.h1`
   }
 
   @media ${devices.mobileL} {
-    font-size: 3em;
+    font-size: 2em;
   }
 `;
 
@@ -45,13 +45,14 @@ const NavLink = styled(Link)`
   text-decoration: none;
   color: ${(props) => props.theme.light};
   margin-right: 20px;
+  font-size: 1em;
 
   &:hover {
     color: ${(props) => props.theme.highLight};
   }
 
   @media ${devices.mobileL} {
-    font-size: 3em;
+    font-size: 1.5em;
   }
 `;
 
