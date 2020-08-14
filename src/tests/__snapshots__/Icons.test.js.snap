@@ -7,7 +7,7 @@ exports[`Icons renders the correct snapshot 1`] = `
     data-testid="icons-box"
   >
     <div
-      class="sc-AxjAm bFEEkt"
+      class="sc-AxjAm dPqzoJ"
       data-testid="rendered-icon"
     >
       <div>
@@ -15,7 +15,7 @@ exports[`Icons renders the correct snapshot 1`] = `
       </div>
     </div>
     <div
-      class="sc-AxjAm bFEEkt"
+      class="sc-AxjAm dPqzoJ"
       data-testid="rendered-icon"
     >
       <div>
@@ -23,7 +23,7 @@ exports[`Icons renders the correct snapshot 1`] = `
       </div>
     </div>
     <div
-      class="sc-AxjAm bFEEkt"
+      class="sc-AxjAm dPqzoJ"
       data-testid="rendered-icon"
     >
       <div>
