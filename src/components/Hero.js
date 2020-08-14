@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import devices from '../styles/devices'
+import devices from '../styles/devices';
 
 const HeroImage = styled.div`
   background-image: linear-gradient(
@@ -40,9 +40,7 @@ const SubTitle = styled.h2`
 `;
 
 const TitleBox = styled.div`
-  @media ${devices.mobileL} {
-    margin: 10vw;
-  }
+  margin: 5vw;
 `;
 
 const Hero = ({ title, subtitle, image, angle }) => {

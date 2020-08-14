@@ -7,7 +7,7 @@ exports[`Hero renders the correct snapshot 1`] = `
     data-testid="hero-image"
   >
     <div
-      class="sc-AxhCb fsZeIF"
+      class="sc-AxhCb iWTPjp"
     >
       <h1
         class="sc-AxirZ bjMeBQ"
