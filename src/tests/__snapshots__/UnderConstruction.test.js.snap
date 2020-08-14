@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnderConstruction renders the correct snapshot 1`] = `
+<DocumentFragment>
+  <svg
+    class="sc-AxjAm eSIdJy"
+  >
+    undraw_under_construction_46pa.svg
+  </svg>
+  <h2>
+    Under Construction
+  </h2>
+</DocumentFragment>
+`;
