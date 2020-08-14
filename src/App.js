@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/global';
 import themes from './themes';
@@ -26,6 +26,7 @@ function App() {
           <Route path="/contact" component={() => <h1>Contact</h1>} />
           <Route path="/404" component={() => <Page404 />} />
           <Route path="/" exact component={Home} />
+          <Route path="/*" component={() => <Redirect to="/404" />} />
         </Switch>
       </AppContainer>
     </ThemeProvider>
