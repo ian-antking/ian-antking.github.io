@@ -10,31 +10,31 @@ exports[`Nav correctly renders the snapshot 1`] = `
       class="sc-AxiKw gQKflZ"
     >
       <h1
-        class="sc-AxirZ gDQoYW"
+        class="sc-AxirZ eMiaWZ"
         data-testid="home-link"
       >
-        [Ian King]
+        [IK]
       </h1>
     </div>
     <div
       class="sc-AxhCb dBIewh"
     >
       <a
-        class="sc-AxhUy ikNMSw"
+        class="sc-AxhUy dPDQiT"
         data-testid="about-link"
         href="/about"
       >
         About
       </a>
       <a
-        class="sc-AxhUy ikNMSw"
+        class="sc-AxhUy dPDQiT"
         data-testid="projects-link"
         href="/projects"
       >
         Projects
       </a>
       <a
-        class="sc-AxhUy ikNMSw"
+        class="sc-AxhUy dPDQiT"
         data-testid="contact-link"
         href="/contact"
       >

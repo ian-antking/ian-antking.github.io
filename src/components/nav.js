@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link, withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
+import devices from '../styles/devices';
 
 const HeaderBar = styled.nav`
   width: 100%;
@@ -14,11 +15,14 @@ const HeaderBar = styled.nav`
 
 const Logo = styled.h1`
   color: ${(props) => props.theme.light};
-  font-size: 2em;
 
   &:hover {
     color: ${(props) => props.theme.highLight};
     cursor: pointer;
+  }
+
+  @media ${devices.mobileL} {
+    font-size: 3em;
   }
 `;
 
@@ -39,12 +43,15 @@ const Links = styled.div`
 
 const NavLink = styled(Link)`
   text-decoration: none;
-  font-size: 2em;
   color: ${(props) => props.theme.light};
   margin-right: 20px;
 
   &:hover {
     color: ${(props) => props.theme.highLight};
+  }
+
+  @media ${devices.mobileL} {
+    font-size: 3em;
   }
 `;
 
@@ -65,7 +72,7 @@ const Nav = ({ history }) => (
   <HeaderBar data-testid="nav-bar">
     <Brand>
       <Logo data-testid="home-link" onClick={() => history.push('/')}>
-        [Ian King]
+        [IK]
       </Logo>
     </Brand>
     <Links>{renderLinks(links)}</Links>
