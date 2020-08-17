@@ -23,11 +23,14 @@ const IconsBox = styled.div`
 
 const Icons = ({ icons }) => (
   <IconsBox data-testid="icons-box">
-    {icons.map((icon) => (
-      <IconBox data-testid="rendered-icon" key={icon.name}>
-        <icon.Icon />
-      </IconBox>
-    ))}
+    {icons.map((icon) => {
+      const { Icon } = icon;
+      return (
+        <IconBox data-testid="rendered-icon" key={icon.name}>
+          <Icon />
+        </IconBox>
+      );
+    })}
   </IconsBox>
 );
 
