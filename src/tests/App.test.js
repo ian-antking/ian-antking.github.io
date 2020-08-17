@@ -11,6 +11,16 @@ describe('App', () => {
     history = createMemoryHistory();
   });
 
+  it('renders the App component', () => {
+    const { getByTestId } = render(
+      <Router history={history}>
+        <App />
+      </Router>
+    );
+
+    expect(getByTestId('app')).toBeInTheDocument();
+  });
+
   it('renders the correct snapshot', () => {
     const { asFragment } = render(
       <Router history={history}>
