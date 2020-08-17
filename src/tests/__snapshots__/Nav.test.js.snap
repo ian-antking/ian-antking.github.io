@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Nav correctly renders the snapshot 1`] = `
+exports[`Nav Render correctly renders the snapshot 1`] = `
 <DocumentFragment>
   <nav
     class="sc-AxjAm fLNzde"
@@ -10,7 +10,7 @@ exports[`Nav correctly renders the snapshot 1`] = `
       class="sc-AxiKw gQKflZ"
     >
       <h1
-        class="sc-AxirZ eMiaWZ"
+        class="sc-AxirZ cxBKys"
         data-testid="home-link"
       >
         [IK]
@@ -20,21 +20,21 @@ exports[`Nav correctly renders the snapshot 1`] = `
       class="sc-AxhCb dBIewh"
     >
       <a
-        class="sc-AxhUy dPDQiT"
+        class="sc-AxhUy iZdArP"
         data-testid="about-link"
         href="/about"
       >
         About
       </a>
       <a
-        class="sc-AxhUy dPDQiT"
+        class="sc-AxhUy iZdArP"
         data-testid="projects-link"
         href="/projects"
       >
         Projects
       </a>
       <a
-        class="sc-AxhUy dPDQiT"
+        class="sc-AxhUy iZdArP"
         data-testid="contact-link"
         href="/contact"
       >

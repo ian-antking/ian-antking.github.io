@@ -18,7 +18,7 @@ function App() {
 
   return (
     <ThemeProvider theme={themes[theme]}>
-      <AppContainer className="App">
+      <AppContainer className="App" data-testid="app">
         <GlobalStyle />
         <Nav />
         <Switch>
