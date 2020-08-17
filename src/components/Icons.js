@@ -35,7 +35,7 @@ Icons.propTypes = {
   icons: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
-      Icon: PropTypes.func.isRequired,
+      Icon: PropTypes.elementType.isRequired,
       type: PropTypes.string.isRequired,
     })
   ).isRequired,
