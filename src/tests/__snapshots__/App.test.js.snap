@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders the correct snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-fznyAO evdWr App"
+    data-testid="app"
+  >
+    <nav
+      class="sc-AxheI qkRuV"
+      data-testid="nav-bar"
+    >
+      <div
+        class="sc-AxmLO cpEtFO"
+      >
+        <h1
+          class="sc-Axmtr dgHiOB"
+          data-testid="home-link"
+        >
+          [IK]
+        </h1>
+      </div>
+      <div
+        class="sc-fzozJi kDHZxP"
+      >
+        <a
+          class="sc-fzoLsD cKgVEJ"
+          data-testid="about-link"
+          href="/about"
+        >
+          About
+        </a>
+        <a
+          class="sc-fzoLsD cKgVEJ"
+          data-testid="projects-link"
+          href="/projects"
+        >
+          Projects
+        </a>
+        <a
+          class="sc-fzoLsD cKgVEJ"
+          data-testid="contact-link"
+          href="/contact"
+        >
+          Contact
+        </a>
+      </div>
+    </nav>
+    <div
+      class="sc-AxjAm liaTpr"
+      data-testid="hero-image"
+    >
+      <div
+        class="sc-AxhCb iWTPjp"
+      >
+        <h1
+          class="sc-AxirZ sbvAk"
+        >
+          Ian King
+        </h1>
+        <h2
+          class="sc-AxiKw dUVFPV"
+        >
+          Full Stack Engineer
+        </h2>
+      </div>
+    </div>
+    <div
+      class="sc-AxgMl fiOGYT"
+      data-testid="icons-box"
+    >
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          amazonwebservices-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          clojure-original.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          css3-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          docker-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          express-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          git-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          github-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          gradle-plain-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          heroku-plain-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          html5-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          java-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          javascript-original.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          mocha-plain.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          mongodb-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          mysql-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          nodejs-original.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          npm-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          python-original.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          react-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          sass-original.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          sequelize-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          slack-original-wordmark.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          vim-original.svg
+        </svg>
+      </div>
+      <div
+        class="sc-AxhUy uiCTL"
+        data-testid="rendered-icon"
+      >
+        <svg>
+          webpack-original-wordmark.svg
+        </svg>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
