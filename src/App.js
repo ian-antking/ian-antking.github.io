@@ -4,7 +4,7 @@ import styled, { ThemeProvider } from 'styled-components';
 import GlobalStyle from './styles/global';
 import themes from './themes';
 import Home from './pages/Home';
-import Nav from './components/Nav';
+import Nav from './components/nav';
 import Page404 from './pages/404';
 import UnderConstruction from './pages/UnderConstruction';
 
